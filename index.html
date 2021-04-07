@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1.0">
+    <title>Conta de Energia</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1 class="h1">Base do Valor da Conta de Energia</h1>
+
+    </header>
+    <div class="hr">
+        <hr>
+    </div>
+
+<section>
+    <h2>
+        Pegue os valores base na sua conta anterior.
+    </h2>
+   
+    <input id="inputleiat" type="number" placeholder="Leitura Atual">
+    <input id="inputleiant" type="number" placeholder="Leitura Anterior">
+    <input id="inputtrfkwh" type="number" placeholder="Tarifa do kwh em 'R$">
+    <input id="inputcilu" type="number" placeholder="Tarita Iluminação Pública">
+    <input id="inputvbt" type="number" placeholder="Valor da Bandeira Tarifária">
+    <button onclick="calculo()">Calcular</button>
+
+    <div id="resultado"></div>
+
+</section>
+
+        
+</div>
+
+</body>
+    <script src="./formula.js"></script>
+</html>
