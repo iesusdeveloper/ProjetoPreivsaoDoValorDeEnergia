@@ -3,7 +3,7 @@ Neste sistema web é possível você verificar e obter uma previsão de quanto v
 ------------------------------------------------------------------------------------------------------
 
 
-------------------------------------------------------------Como usar da melhor forma o sistema.--------------------------------------------------------------------------------
+------------------------------------------------------------Como usar da melhor forma o sistema.-----------------------
 1 Leitura Atual: Valor que pode ser encontrado no leitor do contador da companhia de energia instalado em sua consumidore energética;
 2 Leitura Anterior: Esse valor é encontrado no útlimo papel de conta de luz no campo "leitura anterior" ou equivalente;
 3 Tarifa do kwh em 'R$": Valor cobrado pela consercionária de energia e encontrado no site da mesma ou na sua conta de energia;
