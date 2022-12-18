@@ -16,7 +16,6 @@ function calculo(){
     
     // Função faz a verificação se a variável calculo há dados suficientes ou não para fazer o calculo
 function validCalculo(){
-
     if (isNaN(calculo) == true){
         return true;
     }
