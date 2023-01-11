@@ -29,13 +29,43 @@ header h1{
     text-align: center;
     
 }
-section{
-    margin: 5% 10% 0% 30%;
-    display: inline-block;
+#sections{
+    display: flex;
+}
+#section1{
+    margin: 1% 10% 0% 20%;
     background:rgba(207, 207, 207, 0.116);
     width: 35rem;
     height: 25rem;
     box-shadow: 0px 1px 50px 10px;
+}
+#section2{
+    margin: -14% 10% 0% -47%;
+    background:rgba(207, 207, 207, 0.116);
+    border-left: 10px solid #e7c52a;
+    width: 20rem;
+    height: 25rem;
+    box-shadow: 0px 1px 50px 10px;
+}
+#dadosCidade{
+    display: inline-block;
+    margin: 15% 10% 0% 5%;
+    padding-left: 1rem;
+    line-height: 3;
+    background-color: #32f5079a;
+    width: 18rem;
+}
+#infoCidade{
+    margin-left: -18rem;
+    color: #fbff18;
+}
+#inseriCep{
+    width: 200px;
+    height: 30px;
+    margin: 1rem 0 0 1.5rem;
+    padding-left: 3rem;
+    background-color: #a2faf6;
+    border-radius: 10px;
 }
 #inputleiat{
     width: 200px;
@@ -100,7 +130,7 @@ h2{
     color: rgb(10, 14, 2);
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 4rem 0rem 0rem 9rem;
+    margin: 2rem 0rem 0rem 9rem;
     padding: 0.5rem 0.5rem 1rem 0.5rem;
     width: 300px;
     background-color: rgb(245, 236, 236);
