@@ -16,26 +16,44 @@
     <div class="hr">
         <hr>
     </div>
+<div id="sections">
+    <section id="section1">
+        <h2>
+            Pegue os valores base na sua conta anterior.
+        </h2>
 
-<section>
-    <h2>
-        Pegue os valores base na sua conta anterior.
-    </h2>
-   
-    <input id="inputleiat" type="number" placeholder="Leitura Atual">
-    <input id="inputleiant" type="number" placeholder="Leitura Anterior">
-    <input id="inputtrfkwh" type="number" placeholder="Tarifa do kwh em 'R$">
-    <input id="inputcilu" type="number" placeholder="Tarita Iluminação Pública">
-    <input id="inputvbt" type="number" placeholder="Valor da Bandeira Tarifária">
-    <button onclick="calculo()">Calcular</button>
-
-    <div id="resultado"></div>
-
-</section>
-
+        <input id="inseriCep" type="number" placeholder="Cep da Cidade" size="8" maxlength="9">
+        <input id="inputleiat" type="number" placeholder="Leitura Atual" size="1000000000"> <!--Setado o range permitido, impossibilitando de o usuário fazer calculo com valor-->
+        <input id="inputleiant" type="number" placeholder="Leitura Anterior" size="1000000000">
+        <input id="inputtrfkwh" type="number" placeholder="Tarifa do kwh em 'R$" size="1000000000">
+        <input id="inputcilu" type="number" placeholder="Tarita Iluminação Pública" size="1000000000">
+        <input id="inputvbt" type="number" placeholder="Valor da Bandeira Tarifária" size="1000000000">
         
-</div>
+        <button onclick="calculo()">Calcular</button >
+        
+        <div id="resultado"></div>
 
+    </section>
+    
+    
+    <div id="formatsec2">
+        <h2 id="infoCidade">
+            Sobre a Cidade
+        </h2>
+        
+        <section id="section2">
+            <div id="dadosCidade">
+                <div id="cep"></div>
+                <div id="cidade"></div>
+                <div id="uf"></div>
+                <div id="bairro"></div>
+                <div id="logradouro"></div>
+                <div id="ddd"></div>
+                <div id="complemento"></div>
+            </div>
+        </section>
+    </div>
+</div>
 </body>
     <script src="./formula.js"></script>
 </html>
