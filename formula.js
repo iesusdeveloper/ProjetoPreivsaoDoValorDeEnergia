@@ -52,13 +52,6 @@ function calculo(){
         document.getElementById("logradouro").innerHTML="<strong>RUA: </strong>" + corpo.logradouro
         document.getElementById("ddd").innerHTML="<strong>DDD: </strong>" + corpo.ddd
         
-        console.log(corpo)
-        console.log(typeof corpo.cep)
-        console.log(typeof corpo.localidade)
-        console.log(typeof corpo.localidade)
-        console.log(typeof corpo.bairro)
-        console.log(typeof corpo.complemento)
-        console.log(typeof corpo.logradouro)
-        console.log(typeof corpo.ddd)
+        
     })
 }
